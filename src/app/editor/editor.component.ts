@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./editor.component.scss']
 })
 export class EditorComponent implements OnInit {
-
+  data:any = 'input here';
+  
   constructor() { }
 
   ngOnInit() {
+    
+  }
+  logValue(e){
+    console.log(e)
   }
 
 }
