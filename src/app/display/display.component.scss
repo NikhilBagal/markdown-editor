@@ -1,0 +1,20 @@
+#previewer-head {
+    margin: 0%;
+    padding: 0%;
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.display-area {
+    width: 45vw;
+    height: 90vh;
+    border: 1px solid black;
+    overflow: scroll;
+    background-color: grey;
+    color: #ffffff;
+}
+@media only screen and (max-width:700px){
+    .display-area {
+        width: 100%;
+    }
+}

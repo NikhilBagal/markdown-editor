@@ -1,3 +1,4 @@
+<h2 id="editor-head">Editor</h2>
 <div class="input-area">
-    <textarea [ngModel] = "data" (ngModelChange)="logValue($event)">{{data}}</textarea>
+    <textarea (keyup)='updateVal($event)'>{{value}}</textarea>
 </div>
